@@ -28,6 +28,7 @@ class Profile(commands.Cog):
     @commands.command()
     async def leaderboard(self, ctx):
         self.checkUserExists(ctx)
+        await ctx.message.channel.send("lsasdf")
 
     # returns the data profile of the user
     @commands.command()

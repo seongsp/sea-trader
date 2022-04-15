@@ -61,9 +61,13 @@ def getDailyCooldown(ctx):
 # checks if the user exists in the database, if not create their profile
 def checkUserExists(ctx):
     userId = ctx.message.author.id    
-    userRef = ref.get(str(userId))
-    if userRef[0] == None:
-        ref.set({
+    ref2 = ref.get()
+    print(ref2)
+    print("PRINTING")
+    print(userId)
+
+    if ref2 == None or not str(userId) in ref2:
+        ref.update({
                 userId: {
                     "balance": 400,
                     "wins": 0,
