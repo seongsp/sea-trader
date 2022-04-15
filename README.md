@@ -12,6 +12,14 @@ as well as betting features for user entertainment.
 * Users can claim free coins every 8 hours
 * Users can view items to buy from the shop
 
+# Technologies Used
+* Python Modules
+  * firebase_admin
+  * discord.ext
+  * datetime
+  * dotenv
+* Firebase Realtime Database
+* GitHub
 
 ## To-do
 
