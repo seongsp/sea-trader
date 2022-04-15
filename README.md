@@ -19,6 +19,7 @@ as well as betting features for user entertainment.
   * datetime
   * dotenv
 * Firebase Realtime Database
+* OpenSea API
 * GitHub
 
 ## To-do
