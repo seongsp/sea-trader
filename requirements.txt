@@ -2,3 +2,7 @@ discord.py
 Pillow
 requests
 firebase_admin
+dotenv
+datetime
+time
+random
