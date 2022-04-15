@@ -1,2 +1,4 @@
-discord.py==1.7.3
-firebase-admin==5.2.0
+discord.py
+Pillow
+requests
+firebase_admin
